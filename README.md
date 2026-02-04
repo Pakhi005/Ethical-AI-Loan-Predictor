@@ -1,19 +1,21 @@
-# 🛡️ Ethical AI: Loan Approval System
-A machine learning application built with **Streamlit**, **XGBoost**, and **IBM AIF360** to promote fairness in financial lending.
+# 🛡️ Ethical AI: Loan Approval & Transparency System
 
-## 🚀 Key Features
-* **Bias Detection & Mitigation:** Audits gender-based disparities using IBM AIF360 metrics.
-* **Explainable AI (XAI):** Real-time transparency reports using **SHAP** waterfall plots to explain every decision.
-* **Interactive UI:** User-friendly dashboard to test different applicant scenarios.
+An end-to-end Machine Learning application designed to make financial lending **Fair**, **Transparent**, and **Explainable**. This project goes beyond simple predictions by auditing bias and providing real-time decision rationales.
+
+## 🌟 Key Features
+* **Financial Integrity:** Integrated **CIBIL Score** as a primary feature for realistic credit risk assessment.
+* **Bias Mitigation:** Utilized **IBM AIF360** to audit gender-based disparities, achieving a **0.9796 Disparate Impact Ratio** (Industry Standard for Fairness).
+* **Explainable AI (XAI):** Real-time **SHAP Waterfall Plots** to explain exactly why a loan was approved or denied.
+* **Modern Dashboard:** Interactive UI built with **Streamlit**.
 
 ## 🛠️ Tech Stack
-- **Python** (Core Language)
-- **Streamlit** (Web Interface)
-- **XGBoost** (Prediction Model)
-- **SHAP** (Interpretability)
-- **IBM AIF360** (Fairness Toolkit)
+- **Algorithms:** XGBoost (Classification)
+- **Fairness:** IBM AIF360 (Reweighing Technique)
+- **Interpretability:** SHAP (Shapley Additive Explanations)
+- **Interface:** Streamlit
+- **Environment:** Python (Virtual Environments)
 
-## 📈 How to Run Locally
-1. Clone the repo: `git clone https://github.com/pakhi005/Ethical-AI-Loan-Predictor.git`
-2. Install requirements: `pip install -r requirements.txt`
-3. Run the app: `streamlit run app.py`
+## 📊 How to Run Locally
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/pakhi005/Ethical-AI-Loan-Predictor.git](https://github.com/pakhi005/Ethical-AI-Loan-Predictor.git)
